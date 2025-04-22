@@ -36,7 +36,7 @@ y_pred=model.predict([[days]])
     
 c=st.sidebar.button("View PREDICTION")
 if c:
-    st.subheader(f'PREDICTED PRICE For {select_date} is :       {y_pred[0]}')
+    st.subheader(f'PREDICTED PRICE For {select_date} is :      ₹ {y_pred[0]}')
 
 
 
